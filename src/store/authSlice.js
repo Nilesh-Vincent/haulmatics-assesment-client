@@ -38,10 +38,14 @@ export const authSlice = createSlice({
       localStorage.removeItem('isLoggedIn');
       localStorage.removeItem('token');
     },
+    updateToken: (state, action) => {
+      state.token = action.payload;
+      localStorage.setItem('token', action.payload);
+    },
   },
 });
 
-export const { loginRequest, loginSuccess, loginFailure, logout } = authSlice.actions;
+export const { loginRequest, loginSuccess, loginFailure, logout, updateToken } = authSlice.actions;
 
 export const loginUser = (formData) => async (dispatch) => {
   dispatch(loginRequest());
