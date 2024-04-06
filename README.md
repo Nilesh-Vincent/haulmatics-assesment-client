@@ -60,7 +60,8 @@ User Management Module: Implemented a new module to manage users, including func
 
 User Listing: Displayed users in tabular format, storing all user data inside the state. Restricted access to this list to only admin users.
 
-Unit Testing: Acknowledged the need for unit tests for the create and update processes. While unit tests weren't developed due to a lack of expertise in frontend unit testing, there's a commitment to learning and implementing these tests in the future. Basic CRUD unit tests have been previously implemented using Jest for the backend.
+Unit Testing: I acknowledge the necessity of unit tests for the create and update processes. However, I must note that I currently lack expertise in writing frontend unit tests. Despite this, I am committed to learning and implementing these tests in the future. It's important to mention that I have previously implemented basic CRUD unit tests using Jest for the backend.
+
 
 ## Contact
 
