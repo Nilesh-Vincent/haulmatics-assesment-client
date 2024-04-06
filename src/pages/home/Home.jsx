@@ -41,8 +41,8 @@ function Home() {
   const { isLoggedIn } = useSelector(selectAuth);
 
   useEffect(() => {
-    if (isLoggedIn) {
-      navigate("/");
+    if (!isLoggedIn) {
+      navigate("/login");
     }
   }, [isLoggedIn, navigate]);
 

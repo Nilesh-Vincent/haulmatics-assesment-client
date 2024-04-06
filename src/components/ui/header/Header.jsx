@@ -9,9 +9,6 @@ const Header = () => {
   const dispatch = useDispatch();
   const { isLoggedIn, token  } = useSelector(selectAuth);
 
-  console.log(isLoggedIn)
-  console.log(token)
-
   return (
     <>
       <main className={styles.header}>
