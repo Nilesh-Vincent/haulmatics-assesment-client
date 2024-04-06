@@ -54,7 +54,7 @@ Project Setup: Created a new project using ReactJS and initialized it using Vite
 
 Authentication Pages: Developed a login page and home page using React Router DOM for routing. Additionally, implemented signup and admin privileged pages and integrated them with the REST API.
 
-State Management: Utilized ReactJS with Redux Toolkit to manage state, specifically handling the login flow with credentials (username: haulmatic, password: 123456).
+State Management: Utilized ReactJS with Redux Toolkit to manage state, specifically handling the login flow with credentials.
 
 User Management Module: Implemented a new module to manage users, including functionalities for creating, updating, and deleting users. Used input fields for first name and last name. Ensured that these operations are securely managed and that admin-only features are implemented.
 
