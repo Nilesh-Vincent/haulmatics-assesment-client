@@ -5,6 +5,7 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 import ClipLoader from "react-spinners/ClipLoader";
 import { selectAuth } from "../../store/authSlice";
+import {useSelector} from "react-redux" 
 
 function Signup() {
   const [formData, setFormData] = useState({
